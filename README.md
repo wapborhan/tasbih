@@ -1,6 +1,6 @@
 # Tasbih Count
 
-Demo: [https://github.com/facebook/create-react-app](https://code.wapborhan.com/tasbih/)
+Demo: [https://code.wapborhan.com/tasbih/](https://code.wapborhan.com/tasbih/)
 
 ## Screenshoot
 <img src="/src/assets/images/screenshot.png" alt="Tasbih" />
