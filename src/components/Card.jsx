@@ -34,8 +34,8 @@ const Card = (props) => {
                     Start Count
                   </button>
                 </div>
-                <div className="card-footer text-center ortho text-light p-3">
-                  সব গৌরব একমাত্র আল্লাহর{" "}
+                <div className="card-footer text-center ortho p-3">
+                  {item.transBN}
                 </div>
               </div>
             </div>

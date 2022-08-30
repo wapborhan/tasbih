@@ -19,7 +19,7 @@ span {
 }
 .ortho {
   font-family: HindSiligori !important;
-  color: rgb(0, 255, 255);
+  color: rgb(0, 255, 255) !important;
   font-size: 16px;
 }
 .t1,
@@ -45,6 +45,9 @@ span {
   border-radius: 8px;
   color: rgb(0, 255, 255);
   font-family: HindSiligori !important;
+}
+.popup-text {
+  padding: 0 100px;
 }
 #popup {
   position: absolute;

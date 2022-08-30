@@ -16,19 +16,18 @@ export default class MyComponents extends Component {
   handleIncrement = (index) => {
     const currentItems = [...this.state.data];
     const count = currentItems[index].count;
+    const btn = currentItems[index].isSubmitDisabled;
     currentItems[index].count += 1;
 
     this.setState({
       currentItems,
-      isSubmitDisabled: count > 33 ? true : false,
     });
   };
 
-  // { currentItems, isSubmitDisabled: true }
   render() {
     // console.log(this.state.data);
     return (
-      <div className="row pt-4">
+      <div className="row pt-3">
         <Card
           data={this.state.data}
           handleIncrement={this.handleIncrement}
