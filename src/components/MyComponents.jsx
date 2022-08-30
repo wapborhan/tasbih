@@ -13,16 +13,10 @@ export default class MyComponents extends Component {
     this.handleIncrement = this.handleIncrement.bind(this);
   }
 
-  handleIncrement = (point) => {
-    const arr2 = this.state.data;
-    arr2.forEach((element, index) => {
-      arr2[index] = element + 1;
-      console.log(element);
-    });
-
-    // 👇️ [2, 3, 4]
-    console.log(arr2);
-    // this.setState({ points });
+  handleIncrement = (index) => {
+    const currentItems = [...this.state.data];
+    currentItems[index].count += 1;
+    this.setState(currentItems);
   };
 
   render() {

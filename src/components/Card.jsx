@@ -5,7 +5,7 @@ const Card = (props) => {
   // console.log(props.handleIncrement);
   return (
     <Fragment>
-      {data.map((item) => {
+      {data.map((item, i) => {
         return (
           <Fragment key={item.id}>
             <div className="col-lg-4">
@@ -28,7 +28,7 @@ const Card = (props) => {
                 <div className="card-footer">
                   <button
                     className="btn btn-danger text-center w-100"
-                    onClick={props.handleIncrement}
+                    onClick={() => props.handleIncrement(i)}
                   >
                     Start Count
                   </button>
