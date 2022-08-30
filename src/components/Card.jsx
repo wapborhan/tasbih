@@ -34,7 +34,6 @@ const Card = (props) => {
                   </button>
                 </div>
                 <div className="card-footer text-center ortho text-light p-3">
-                  {" "}
                   সব গৌরব একমাত্র আল্লাহর{" "}
                 </div>
               </div>
