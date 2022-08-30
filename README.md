@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Tasbih Count
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Demo: [https://github.com/facebook/create-react-app](https://code.wapborhan.com/tasbih/)
 
 ## Screenshoot
 <img src="/src/assets/images/screenshot.png" alt="Tasbih" />
