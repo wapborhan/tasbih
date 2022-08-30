@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tasbih/static/css/main.2ff1116d.css",
-    "main.js": "/tasbih/static/js/main.6453185e.js",
+    "main.css": "/tasbih/static/css/main.21ff00b5.css",
+    "main.js": "/tasbih/static/js/main.df649cc1.js",
     "static/js/787.636412a5.chunk.js": "/tasbih/static/js/787.636412a5.chunk.js",
     "static/media/HindSiliguri-Medium.ttf": "/tasbih/static/media/HindSiliguri-Medium.51b44c8c7354045b3081.ttf",
     "index.html": "/tasbih/index.html",
-    "main.2ff1116d.css.map": "/tasbih/static/css/main.2ff1116d.css.map",
-    "main.6453185e.js.map": "/tasbih/static/js/main.6453185e.js.map",
+    "main.21ff00b5.css.map": "/tasbih/static/css/main.21ff00b5.css.map",
+    "main.df649cc1.js.map": "/tasbih/static/js/main.df649cc1.js.map",
     "787.636412a5.chunk.js.map": "/tasbih/static/js/787.636412a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ff1116d.css",
-    "static/js/main.6453185e.js"
+    "static/css/main.21ff00b5.css",
+    "static/js/main.df649cc1.js"
   ]
 }
