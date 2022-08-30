@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 const Card = (props) => {
   const data = props.data;
-  // console.log(props.handleIncrement);
+  // console.log(props);
   return (
     <Fragment>
       {data.map((item, i) => {
@@ -29,6 +29,7 @@ const Card = (props) => {
                   <button
                     className="btn btn-danger text-center w-100"
                     onClick={() => props.handleIncrement(i)}
+                    disabled={props.isSubmitDisabled}
                   >
                     Start Count
                   </button>
