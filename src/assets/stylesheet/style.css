@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: HindSiligori;
-  src: url(./HindSiliguri-Medium.ttf);
+  src: url(../fonts/HindSiliguri-Medium.ttf);
 }
 body {
   background: -webkit-linear-gradient(to top, #627386, #78a0e8);
